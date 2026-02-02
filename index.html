@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Replicate Profile page</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-light">
+
+  <!-- Container -->
+  <div class="container my-5">
+
+    <!-- Breadcrumb -->
+    <nav class="mb-4">
+      <a href="#" class="text-primary text-decoration-none">Home</a> /
+      <a href="#" class="text-primary text-decoration-none">User</a> /
+      <span class="text-muted">Profile</span>
+    </nav>
+
+    <!-- GRID ROW -->
+    <div class="row g-4">
+
+      <!-- LEFT COLUMN -->
+      <div class="col-lg-4">
+
+        <!-- PROFILE CARD -->
+        <div class="card text-center p-4">
+          <img src="assets/images/avatar.png" class="avatar mx-auto" alt="Avatar" />
+
+          <h4 class="mt-3 mb-0">John Doe</h4>
+          <p class="text-muted mb-1">Full Stack Developer</p>
+          <p class="text-muted">San Francisco, CA</p>
+
+          <div class="d-flex justify-content-center gap-2 mt-3">
+            <button class="btn btn-primary btn-sm">Follow</button>
+            <button class="btn btn-outline-primary btn-sm">Message</button>
+          </div>
+        </div>
+
+        <!-- LINKS CARD -->
+        <div class="card mt-4 p-3">
+          <ul class="list-unstyled mb-0">
+
+            <li class="d-flex align-items-center mb-2">
+              <img src="assets/icons/world.svg" class="icon" />
+              <span class="ms-2">https://johndoe.com</span>
+            </li>
+
+            <li class="d-flex align-items-center mb-2">
+              <img src="assets/icons/github.svg" class="icon" />
+              <span class="ms-2">bootdey</span>
+            </li>
+
+            <li class="d-flex align-items-center">
+              <img src="assets/icons/twitter.svg" class="icon" />
+              <span class="ms-2">@bootdey</span>
+            </li>
+
+          </ul>
+        </div>
+
+        <!-- SKILLS CARD -->
+        <div class="card mt-4 p-3">
+          <h6 class="mb-3">
+            <img src="assets/icons/tools.svg" class="icon me-2" />
+            Skills
+          </h6>
+
+          <small>Web Design</small>
+          <div class="progress mb-2">
+            <div class="progress-bar" style="width: 80%"></div>
+          </div>
+
+          <small>Bootstrap 5</small>
+          <div class="progress mb-2">
+            <div class="progress-bar" style="width: 90%"></div>
+          </div>
+
+          <small>Backend API</small>
+          <div class="progress">
+            <div class="progress-bar" style="width: 65%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="col-lg-8">
+
+        <!-- INFO CARD -->
+        <div class="card p-4">
+          <div class="row mb-3">
+            <div class="col-4 fw-bold">Full Name</div>
+            <div class="col-8 text-muted">Johnathan Doe</div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-4 fw-bold">Email</div>
+            <div class="col-8 text-muted">kip@bootdey.com</div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-4 fw-bold">Phone</div>
+            <div class="col-8 text-muted">(239) 816-9029</div>
+          </div>
+
+          <div class="row">
+            <div class="col-4 fw-bold">Address</div>
+            <div class="col-8 text-muted">Bay Area, San Francisco, CA</div>
+          </div>
+        </div>
+
+        <!-- ACHIEVEMENTS -->
+        <div class="card p-4 mt-4">
+          <h6 class="mb-3">
+            <img src="assets/icons/medal.svg" class="icon me-2" />
+            Achievements
+          </h6>
+
+          <div class="row g-3">
+
+            <div class="col-md-6">
+              <div class="achievement">
+                <img src="assets/icons/trophy.svg" class="icon-lg" />
+                <div>
+                  <strong>Top Performer</strong>
+                  <p class="text-muted mb-0">Best of Q3 2024</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="achievement">
+                <img src="assets/icons/shield.svg" class="icon-lg" />
+                <div>
+                  <strong>Security Guru</strong>
+                  <p class="text-muted mb-0">Certified 2023</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="achievement">
+                <img src="assets/icons/calendar-check.svg" class="icon-lg" />
+                <div>
+                  <strong>5 Year Club</strong>
+                  <p class="text-muted mb-0">Joined in 2019</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="achievement">
+                <img src="assets/icons/bulb.svg" class="icon-lg" />
+                <div>
+                  <strong>Innovator</strong>
+                  <p class="text-muted mb-0">2 Patents Filed</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
